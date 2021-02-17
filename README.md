@@ -1,6 +1,6 @@
 # PythonConsoleApps3
 
-PythonConsoleApps3 is a assignment for my IOT class
+PythonConsoleApps3 is an assignment for my IOT class
 
 # Clone
 
