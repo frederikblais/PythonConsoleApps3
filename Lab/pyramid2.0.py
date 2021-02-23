@@ -1,8 +1,7 @@
 #
+#   Prints a pyramid with custom characters
 #
-#
-#   
-#   
+
 
 line = '------------------------------------------'
 title = '|            PYRAMID 2.0                 |'

@@ -1,0 +1,44 @@
+-----------------------------------------
+|   Lab 04 By: Frederik Blais, 1763111  |
+-----------------------------------------
+
+Question 1:
+    a. A for loop is acount-controlled loop, and awhile loop
+    is a condition-controlled loop. Explain the differences
+        - A count controlled loop terminated by default at the end of the count.
+        - A condition controlled will terminate once the condition is met
+
+    b. What is wrong with the following code's syntax?
+        for a_num in [5,10,1]
+            print (a_num)
+
+        - it should be:
+        for a_num in range(5,10,1):
+            print (a_num)
+
+    c. What happened when a break command is executed in a while loop?
+        - the loop is terminated
+
+Question 2:
+    a. You must define a function before you can use it in your script.
+       True or False? Explain
+        - True, you want the def of the funtion first then you can call it since
+        pyhton reads from to to bottom and needs to store the funtion in memory.
+
+    b. How do you define a default value for a function parameter.
+        You can set default values inside the function definition like so:
+
+        def example(v1 = 10, v2 = 20):
+            # do stuff
+
+    c. How do you define a variable number of parameters in a function
+       definition?
+        - you use the *args argument as a parameter like so:
+
+        def example(*args):
+            # do stuff
+
+    d. Local variables can only be referenced from inside the function where
+       they are created. True or False? Explain.
+        True. If you want to use the variable outside of said function, you need
+        to declare them as a Global variable.
